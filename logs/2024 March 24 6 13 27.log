@@ -1,0 +1,53 @@
+INFO:\t2024/03/24 06:13:27 Server's configuration uploaded status: OK
+INFO:\t2024/03/24 06:13:27 Database connection status: OK
+INFO:\t2024/03/24 06:13:27 Server is starting on: 127.0.0.1:8080
+INFO:\t2024/03/24 06:13:40 The new cookie sent:  cookie=51732; Max-Age=300
+INFO:\t2024/03/24 06:13:40 The new connection registered in redis:  51732
+INFO:\t2024/03/24 06:13:43 The new request:  51732 Total requests count:  1
+INFO:\t2024/03/24 06:13:44 The new request:  51732 Total requests count:  2
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  3
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  4
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  5
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  6
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  7
+INFO:\t2024/03/24 06:13:45 The new request:  51732 Total requests count:  8
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  9
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  10
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  11
+INFO:\t2024/03/24 06:13:46 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  12
+INFO:\t2024/03/24 06:13:46 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  13
+INFO:\t2024/03/24 06:13:46 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  14
+INFO:\t2024/03/24 06:13:46 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:46 The new request:  51732 Total requests count:  15
+INFO:\t2024/03/24 06:13:46 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:47 The new request:  51732 Total requests count:  16
+INFO:\t2024/03/24 06:13:47 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:47 The new request:  51732 Total requests count:  17
+INFO:\t2024/03/24 06:13:47 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:47 The new request:  51732 Total requests count:  18
+INFO:\t2024/03/24 06:13:47 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:47 The new request:  51732 Total requests count:  19
+INFO:\t2024/03/24 06:13:47 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:51 The new request:  51732 Total requests count:  1
+INFO:\t2024/03/24 06:13:52 The new request:  51732 Total requests count:  2
+INFO:\t2024/03/24 06:13:52 The new request:  51732 Total requests count:  3
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  4
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  5
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  6
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  7
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  8
+INFO:\t2024/03/24 06:13:53 The new request:  51732 Total requests count:  9
+INFO:\t2024/03/24 06:13:54 The new request:  51732 Total requests count:  10
+INFO:\t2024/03/24 06:13:54 The new request:  51732 Total requests count:  11
+INFO:\t2024/03/24 06:13:54 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:54 The new request:  51732 Total requests count:  12
+INFO:\t2024/03/24 06:13:54 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:54 The new request:  51732 Total requests count:  13
+INFO:\t2024/03/24 06:13:54 Too many requests by:  51732
+INFO:\t2024/03/24 06:13:54 The new request:  51732 Total requests count:  14
+INFO:\t2024/03/24 06:13:54 Too many requests by:  51732
+INFO:\t2024/03/24 06:32:31 Server is shutting down by: interrupt
+INFO:\t2024/03/24 06:32:31 Server shutting down status: OK
