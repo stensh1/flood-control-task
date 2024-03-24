@@ -6,9 +6,3 @@ buildServer:
 
 runServer: buildServer
 	./.bin/server
-
-buildClient:
-	go build -o ./.bin/client src/cmd/client/main.go
-
-runClient: buildClient
-	./.bin/client
