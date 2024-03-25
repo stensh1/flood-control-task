@@ -10,6 +10,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"gopkg.in/yaml.v3"
 	"log"
+	"math/rand"
 	"net/http"
 	"os"
 	"strconv"
@@ -53,6 +54,13 @@ func (server *S) Start() {
 			}
 		}
 	}()
+}
+
+// Stop destructor just closes a DB connection
+func (server *S) Stop() {
+	if err := server.db.Close(); err != nil {
+		server.LogErr.Panic("Closing Redis connection failed:", err)
+	}
 }
 
 // logger is a private S method that implements three levels of logging
@@ -170,6 +178,8 @@ func (server *S) checker(w http.ResponseWriter, r *http.Request) {
 			server.LogErr.Println("Writing in database status:", err)
 			w.WriteHeader(http.StatusOK)
 			w.Write([]byte("Please try to reload page :("))
+
+			return
 		}
 
 		server.LogInfo.Println("The new connection registered in redis: ", c.Value)
@@ -209,7 +219,7 @@ func (server *S) checker(w http.ResponseWriter, r *http.Request) {
 func (server *S) giveCookie(w http.ResponseWriter, r *http.Request) *http.Cookie {
 	c := &http.Cookie{
 		Name:   "cookie",
-		Value:  r.RemoteAddr[10:],
+		Value:  fmt.Sprint(rand.Int()),
 		MaxAge: 300,
 	}
 
